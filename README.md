@@ -16,10 +16,20 @@ Description goes here
 
 Here's how you make code look like code:
 
-```python
-Code goes here
+import board
+import neopixel
+import time
 
-```
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+print("Make it red!")
+
+while True:
+    dot.fill((0, 0, 255))
+    time.sleep(.30)
+    dot.fill((153, 0, 255))
+    time.sleep(.30)
+    dot.fill((255, 0, 0))
+    time.sleep(.30)
 
 
 ### Evidence
