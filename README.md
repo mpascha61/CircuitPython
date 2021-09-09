@@ -16,6 +16,8 @@ Description goes here
 
 Here's how you make code look like code:
 
+```python
+Code goes here
 import board
 import neopixel
 import time
@@ -30,7 +32,7 @@ while True:
     time.sleep(.30)
     dot.fill((255, 0, 0))
     time.sleep(.30)
-
+```
 
 ### Evidence
 Pictures / Gifs of your work should go here
