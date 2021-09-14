@@ -60,20 +60,26 @@ import time
 import board
 import pwmio
 import servo
-
+import touchio
 # create a PWMOut object on Pin A2.
 pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
+touch_A1 = touchio.TouchIn(board.A1)
 
 # Create a servo object, my_servo.
 my_servo = servo.Servo(pwm)
 
 while True:
-    for angle in range(0, 180, 1):  # 0 - 180 degrees, 5 degrees at a time.
-        my_servo.angle = angle
-        time.sleep(0.01)
+    
     for angle in range(180, 0, -1): # 180 - 0 degrees, 5 degrees at a time.
         my_servo.angle = angle
         time.sleep(0.01)
+    if touch_A1.value:
+        print("Touched A1!")
+        for angle in range(0, 180, 1):  # 0 - 180 degrees, 5 degrees at a time.
+            my_servo.angle = angle
+            time.sleep(0.01)
+    time.sleep(.05) 
+
 
 ```
 
@@ -82,7 +88,7 @@ while True:
 ### Images
 
 ### Reflection
-Somewhat simple except I had to remove the code telling it to input the adafruit servo from the adafruit file because I had already moved the file to my D drive (metro drive).
+Somewhat simple except I had to remove the code telling it to input the adafruit servo from the adafruit file because I had already moved the file to my D drive (metro drive). Cap touch I still don't fully understand how it detects me touching a wire vs a wire rubbing against some random surface though.
 
 
 
