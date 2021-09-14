@@ -82,7 +82,7 @@ while True:
 ### Images
 
 ### Reflection
-
+Somewhat simple except I had to remove the code telling it to input the adafruit servo from the adafruit file because I had already moved the file to my D drive (metro drive).
 
 
 
