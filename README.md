@@ -86,7 +86,8 @@ while True:
 
 ### Reflection
 Somewhat simple except I had to remove the code telling it to input the adafruit servo from the adafruit file because I had already moved the file to my D drive (metro drive). Cap touch I still don't fully understand how it detects me touching a wire vs a wire rubbing against some random surface though.
-Learn.adafruit.com extremely helpful
+
+[Learn.adafruit.com](url) extremely helpful
 
 
 
