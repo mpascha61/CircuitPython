@@ -35,7 +35,7 @@ while True:
 ```
 
 
-### Images / ### Evidence
+### Images / Evidence
 ![ledlightpic](https://user-images.githubusercontent.com/71345181/133625107-908011a3-f2ad-4a12-a524-92a9d155694c.jpg)
 
 ### Reflection
