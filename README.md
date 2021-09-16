@@ -1,4 +1,3 @@
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/71345181/133622901-693790c2-fc74-4d04-b4ca-d9fa5a49e5d7.gif)
 # Engineering_3_Notebook
 # CircuitPython
  The follwing files are my first foray into CircuitPython.
