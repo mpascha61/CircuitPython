@@ -35,14 +35,11 @@ while True:
 ```
 
 ### Evidence
-Pictures / Gifs of your work should go here
 
 ### Images
-Make an account with your google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://www.markdownguide.org/basic-syntax/)
+![ledlightpic](https://user-images.githubusercontent.com/71345181/133625107-908011a3-f2ad-4a12-a524-92a9d155694c.jpg)
 
 ### Reflection
-
 
 Changing the code to swtich colors and timing was fairly simple but I had issues with the actual neopixel download not being in my student drive.
 
