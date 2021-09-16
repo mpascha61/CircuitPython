@@ -1,3 +1,4 @@
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/71345181/133622901-693790c2-fc74-4d04-b4ca-d9fa5a49e5d7.gif)
 # Engineering_3_Notebook
 # CircuitPython
  The follwing files are my first foray into CircuitPython.
@@ -86,6 +87,7 @@ while True:
 ### Evidence
 
 ### Images
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/71345181/133622973-0dc4623e-d1af-48bd-8901-5fd99dc2f4a8.gif)
 
 ### Reflection
 Somewhat simple except I had to remove the code telling it to input the adafruit servo from the adafruit file because I had already moved the file to my D drive (metro drive). Cap touch I still don't fully understand how it detects me touching a wire vs a wire rubbing against some random surface though.
