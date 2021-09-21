@@ -91,7 +91,7 @@ Somewhat simple except I had to remove the code telling it to input the adafruit
 
 
 
-## CircuitPython_LCD
+## CircuitPython_DistanceSensor
 
 ### Description & Code
 
