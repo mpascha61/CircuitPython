@@ -150,6 +150,43 @@ Using old code helps significantly with doing things like this quickly and knowi
 
 ```python
 Code goes here
+import board
+import time
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+import touchio
+
+# get and i2c object
+i2c = board.I2C()
+
+# some LCDs are 0x3f... some are 0x27.
+lcd = LCD(I2CPCF8574Interface(i2c, 0x3f), num_rows=2, num_cols=16)
+
+lcd.print("Hello, Engineer!")
+
+touch_pad1 = board.A1
+touch1 = touchio.TouchIn(touch_pad1)
+touch_pad2 = board.A2
+touch2 = touchio.TouchIn(touch_pad2)
+
+
+counter = 0
+diff = 1
+while True:
+    if touch1.value:
+
+        counter += diff
+        lcd.set_cursor_pos(1, 4)
+        lcd.print(str(counter))
+        time.sleep(0.1)
+    else:
+        counter = counter
+        time.sleep(0.1)
+    if touch2.value:
+        diff = -diff
+    else:
+        counter = counter
+        time.sleep(0.1)
 
 ```
 
