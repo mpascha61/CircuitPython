@@ -135,7 +135,7 @@ while True:
 
 ### Evidence
 ![image](https://user-images.githubusercontent.com/71345181/134191171-18690e02-85c2-4f71-8a88-c707cf0dbbc7.png)
-
+Wiring for the sensor
 ### Images
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/71345181/134514464-caa97a3e-3cad-4ae1-9206-1270b65ca029.gif)
 
