@@ -13,7 +13,7 @@
 
 ### Description & Code
 Description goes here
-
+Neopixel changes colors over time
 Here's how you make code look like code:
 
 ```python
@@ -48,7 +48,7 @@ Changing the code to swtich colors and timing was fairly simple but I had issues
 ## CircuitPython_Servo
 
 ### Description & Code
-
+Touching yellow wire causing servo to move smoothly rather than jerking from 180 to 0 degrees
 ```python
 Code goes here
 """CircuitPython Essentials Servo standard servo example"""
@@ -94,7 +94,7 @@ Somewhat simple except I had to remove the code telling it to input the adafruit
 ## CircuitPython_DistanceSensor
 
 ### Description & Code
-
+Distance detected by distance sensor changes neopixel color
 ```python
 Code goes here
 import time
@@ -147,7 +147,7 @@ Using old code helps significantly with doing things like this quickly and knowi
 ## NextAssignment
 
 ### Description & Code
-
+Capacitive touch causes number shown on LCD to increase
 ```python
 Code goes here
 import board
