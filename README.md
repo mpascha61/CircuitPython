@@ -81,6 +81,7 @@ while True:
 
 ### Evidence
 ![ServoEvidence](https://user-images.githubusercontent.com/71345181/133624650-4b4e675e-5a12-46e6-9875-83fdaabe821c.png)
+Wire hanging off is capacitive touch wire
 ### Images
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/71345181/133622973-0dc4623e-d1af-48bd-8901-5fd99dc2f4a8.gif)
 
@@ -133,10 +134,10 @@ while True:
 ```
 
 ### Evidence
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/71345181/134514464-caa97a3e-3cad-4ae1-9206-1270b65ca029.gif)
+![image](https://user-images.githubusercontent.com/71345181/134191171-18690e02-85c2-4f71-8a88-c707cf0dbbc7.png)
 
 ### Images
-![image](https://user-images.githubusercontent.com/71345181/134191171-18690e02-85c2-4f71-8a88-c707cf0dbbc7.png)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/71345181/134514464-caa97a3e-3cad-4ae1-9206-1270b65ca029.gif)
 
 ### Reflection
 
