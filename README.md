@@ -12,8 +12,7 @@
 ## Hello_CircuitPython
 
 ### Description & Code
-Description goes here
-Neopixel changes colors over time
+Goal is to make the neopixel change colors on its own, final product changes color given after a period of rest.
 Here's how you make code look like code:
 
 ```python
@@ -38,6 +37,8 @@ while True:
 ### Images / Evidence
 ![ledlightpic](https://user-images.githubusercontent.com/71345181/133625107-908011a3-f2ad-4a12-a524-92a9d155694c.jpg)
 
+Image Credit goes to : [adafruit](https://www.adafruit.com/product/3505?source=post_page---------------------------)
+
 ### Reflection
 
 Changing the code to swtich colors and timing was fairly simple but I had issues with the actual neopixel download not being in my student drive.
@@ -48,6 +49,7 @@ Changing the code to swtich colors and timing was fairly simple but I had issues
 ## CircuitPython_Servo
 
 ### Description & Code
+Goal is to make the servo act differently upon interacting with the capacitive touch wire
 Touching yellow wire causing servo to move smoothly rather than jerking from 180 to 0 degrees
 ```python
 Code goes here
