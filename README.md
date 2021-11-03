@@ -13,7 +13,7 @@
 
 ### Description & Code
 Goal is to make the neopixel change colors on its own, final product changes color given after a period of rest.
-Here's how you make code look like code:
+
 
 ```python
 Code goes here
