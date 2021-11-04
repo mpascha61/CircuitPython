@@ -98,7 +98,7 @@ Somewhat simple except I had to remove the code telling it to input the adafruit
 ## CircuitPython_DistanceSensor
 
 ### Description & Code
-Distance detected by distance sensor changes neopixel color
+Goal is to have neopixel change color based on distance detected by sensor, neopixel fades on a rainbow type pattern based on distance of object from sensor
 ```python
 Code goes here
 import time
